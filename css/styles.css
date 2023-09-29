@@ -23,7 +23,7 @@ body {
     color: var(--logo-color);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -42,15 +42,20 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 
 .link:hover {
-            color: var(--btn-color);
+    color: var(--btn-color);
 }
 
 .link:focus {
-            color: var(--btn-color);
+    color: var(--btn-color);
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .header-address.link {
@@ -87,6 +92,9 @@ a {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .main-btn:hover,
@@ -160,6 +168,8 @@ a {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .section-team {
@@ -173,6 +183,8 @@ a {
 .team-list {
     background-color: var(--second-text-color);
 }
+
+
 
 .footer {
     background-color: var(--main-text-color);
